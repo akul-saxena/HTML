@@ -1,0 +1,50 @@
+/*body{ background-color:blueviolet;
+max-width: 200px;}
+h1{color: deepskyblue;}
+p{ color: wheat;}
+#html{ color: tomato;}
+#css{ color: yellow;}
+#java{ color: aqua;}
+#name{background-color: coral; place-content:"Enter your name";}
+#namelab{color: aquamarine;}
+input[type="email"]{background-color: coral;
+width: 5px;}
+
+h1~p{color: darksalmon;}
+.red{
+    background-color: red;
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+.green{ background-color: green;
+float: left;
+clear: left;
+height: 50px;
+width: 100px;
+margin: 10px;
+}
+
+.blue{
+    background-color: blue;
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+.yellow{
+    background-color: yellow;
+    float:left;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border: black solid 3px;
+}*/
+.transition{
+    width: 400px;
+    height: 400px;
+    background: rgb(#fff) linear-gradient (  rgba(19, 189, 22, 0.555),rgba(212, 176, 58, 0.8),rgba(13, 16, 180, 0.712));
+    clear: both;
+    margin: 40px 40px;
+}

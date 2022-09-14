@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment | AutoMob-Mechanic</title>
+</head>
+<body>
+    <header>
+        <a href="home.html" target="_blank"><h2>AutoMob-Mechanic</h2></a>
+        <nav>
+            <a href="home.html" target="_blank">Home</a> | <a href="services.html" target="_blank">Services</a> | <a href="booking.html" target="_blank">Booking</a> | <a href="mailto:contact@automob.co.in?">contact@automob.co.in</a> | <a href="tel:+919314077000" target="_blank">9314077000</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <br>
+        <h1>Schedule Your Appointment</h1>
+        <br>
+        <form action="booking-success.html" method="post" autocomplete="off">
+            <div>
+                <label for="appointmentdate"><strong>Appointment Date:</strong></label>
+                <input type="date" name="appointmentdate" required id="appointmentdate">
+            </div>
+            <br>
+            <div>
+                <label for="address"><strong>Address:</strong></label>
+                <textarea name="address" id="address" required rows="6" cols="30"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="city"><strong>City:</strong></label>
+                <input type="text" name="city" id="city" required >
+            </div>
+            <br>
+            <div>
+                <label for="state"><strong>State:</strong></label>
+                <input list="states" name="state" id="state" required>
+                <datalist id="states">
+                    <option value="Assam">
+                    <option value="Bihar">
+                    <option value="Gujarat">
+                    <option value="Goa">
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label for="noti"><strong>Send Notification:</strong></label>
+                <input type="checkbox" name="noti" id="noti" >Email
+                <input type="checkbox" name="noti" id="noti">SMS
+            </div>
+            <br>
+            <br>
+            <div>
+                <button type="submit">Book</button>
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2020 AutoMob-Mechanic. All Rights Reserved </p>
+    </footer>
+</body>
+</html>
